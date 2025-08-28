@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kedai Kopi Doa Ibu</title>
+    <style>
+        /* Reset dasar */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', sans-serif;
+            line-height: 1.6;
+            background-color: #fffaf3;
+            color: #333;
+        }
+
+        header {
+            background-color: #5d4037;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            margin-top: 10px;
+            flex-wrap: wrap;
+        }
+
+        nav ul li {
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .hero {
+            background: url('https://images.unsplash.com/photo-1509042239860-f550ce710b93') center/cover no-repeat;
+            color: white;
+            text-align: center;
+            padding: 100px 20px;
+        }
+
+        .menu, .tentang, .kontak {
+            padding: 50px 20px;
+            text-align: center;
+        }
+
+        .menu ul {
+            list-style: none;
+            margin-top: 20px;
+        }
+
+        .menu ul li {
+            margin-bottom: 10px;
+            font-size: 18px;
+        }
+
+        footer {
+            background-color: #3e2723;
+            color: white;
+            text-align: center;
+            padding: 15px;
+        }
+
+        @media (max-width: 600px) {
+            nav ul {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .hero {
+                padding: 60px 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Kedai Kopi Doa Ibu</h1>
+        <nav>
+            <ul>
+                <li><a href="#beranda">Beranda</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#tentang">Tentang</a></li>
+                <li><a href="#kontak">Kontak</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="beranda" class="hero">
+        <h2>Selamat Datang di Kedai Kopi Doa Ibu</h2>
+        <p>Rasakan kenikmatan kopi terbaik dari biji kopi pilihan.</p>
+    </section>
+
+    <section id="menu" class="menu">
+        <h2>Menu Kami</h2>
+        <ul>
+            <li>Kopi Hitam - Rp 15.000</li>
+            <li>Cappuccino - Rp 25.000</li>
+            <li>Latte - Rp 25.000</li>
+            <li>Teh Manis - Rp 10.000</li>
+            <li>Roti Bakar - Rp 12.000</li>
+            <li>French fries</li>
+        </ul>
+    </section>
+
+    <section id="tentang" class="tentang">
+        <h2>Tentang Kami</h2>
+        <p>Kedai Kopi Nikmat hadir sejak 2025 untuk menyajikan kopi terbaik dengan suasana nyaman dan pelayanan ramah. Kami menggunakan biji kopi lokal berkualitas tinggi dari berbagai daerah di Indonesia.</p>
+    </section>
+
+    <section id="kontak" class="kontak">
+        <h2>Kontak Kami</h2>
+        <p>📍 Jl. Kapas Madya No. 14, Surabaya</p>
+        <p>📞 0858-5903-3291</p>
+        <p>📧 info@kedaikopidoaibu.com</p>
+    </section>
+
+    <footer>
+        <p> Created by Abdurrahman Nur Mahfudin. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
